@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+#wrap {
+	width: 1275px;
+    margin: 200px auto 300px;
+}
+.title {
+	width: 100%;
+    background-color: none;
+    border-bottom: 2px solid #2fb8bd;
+    color: #2fb8bd;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+.list {
+	width: 100% !important;
+	border-collapse: collapse;
+}
+.write>td {
+	padding:10px 0;
+}
+
+.write>td>a {
+	color: #2fb8bd;
+	padding: 5px;
+}
+.write>td>a:hover {
+	background-color: #2fb8bd;
+	color: #fff;
+}
+.table_cols>th {
+	background: #2fb8bd; 
+	color: #fff;
+	border: none;
+	font-size: 18px;
+	padding: 10px; 
+}
+.record>td {
+	border: #d3d3d3 solid 1px;  
+	padding: 10px; 
+	font-size: 16px;
+}
+.record>td> a {
+	text-decoration: none; 
+	color: black; 
+	font-size: 16px;
+}
+.record>td> a:HOVER {
+	color: #2fb8bd; 
+}

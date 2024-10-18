@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+#wrap {
+	width: 1275px;
+    margin: 200px auto 300px;
+}
+.title {
+	width: 100%;
+    background-color: none;
+    border-bottom: 2px solid #2fb8bd;
+    color: #2fb8bd;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+.cover {
+	width: 100%;
+	margin-top: 44px;
+}
+
+.cover tr {
+	width: 100%;
+}
+.cover th {
+	width: 20%;
+	background: #2fb8bd;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+}
+.cover td {
+	width: 80%;
+	background: none;
+	border: 1px solid #d3d3d3;
+	padding-left: 10px;
+}
+.cover input, textarea {
+	width: 100%;
+	font-size: 16px;
+	padding: 10px;
+	color: #000;
+	border: none;
+	outline: none;
+}
+
+.sub_btn {
+	width: 120px;
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	background: #2fb8bd;
+	color: #fff;
+	cursor: pointer;
+}
+
+.other_btn {
+	width: 120px;
+	font-size: 18px;
+	padding: 10px;
+	border: 1px solid #2fb8bd;
+	background: none;
+	color: #2fb8bd;
+	cursor: pointer;
+}

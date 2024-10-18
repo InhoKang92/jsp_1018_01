@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+.join_box {
+    width: 500px;
+    margin: 200px auto;
+}
+.title_box {
+    width: 100%;
+    background-color: #2fb8bd;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.mand {
+	margin: 10px 0;
+}
+
+.input_box {
+    width: 500px;
+}
+
+.input_box>input {
+    display: inline-block;
+    width: 493px;
+    border: 2px solid #ddd;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.input_box>div {
+	width: 493px;
+	display: flex;
+	
+}
+
+.input_box>div>.id_input {
+    display: inline-block;
+    width: 393px;
+    border: 2px solid #ddd;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.input_box>div>.idcheck_btn {
+	display: inline-block;
+	width: 90px;
+	margin-left: 10px;
+	border: none;
+	background-color: #2fb8bd;
+	color: #fff;
+	padding: 10px;
+    font-size: 16px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.button_box {
+    display: flex;
+    gap: 10px;
+    width: 500px;
+    
+}
+.join_btn {
+	flex: 1;
+	text-align: center;
+	background-color: #2fb8bd;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.reset_btn {
+	flex: 1;
+	text-align: center;
+	background-color: #fff;
+    border: 1px solid #2fb8bd;
+    color: #2fb8bd;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.home_btn {
+	flex: 1;
+	text-align: center;
+	background-color: #fff;
+    border: 1px solid #2fb8bd;
+    color: #2fb8bd;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}

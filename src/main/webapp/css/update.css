@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+.join_box {
+    width: 500px;
+    margin: 200px auto;
+}
+.title_box {
+    width: 100%;
+    background-color: #2fb8bd;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.mand {
+	margin: 10px 0;
+}
+
+.input_box {
+    width: 500px;
+}
+
+.input_box>input {
+    display: inline-block;
+    width: 493px;
+    border: 2px solid #ddd;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.input_box>.id_input {
+	margin-bottom: 0;
+}
+.manda {
+	margin-bottom: 10px;
+}
+
+.button_box {
+    display: flex;
+    gap: 10px;
+    width: 500px;
+    
+}
+.join_btn {
+	flex: 1;
+	text-align: center;
+	background-color: #2fb8bd;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.reset_btn {
+	flex: 1;
+	text-align: center;
+	background-color: #fff;
+    border: 1px solid #2fb8bd;
+    color: #2fb8bd;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.home_btn {
+	flex: 1;
+	text-align: center;
+	background-color: #fff;
+    border: 1px solid #2fb8bd;
+    color: #2fb8bd;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}

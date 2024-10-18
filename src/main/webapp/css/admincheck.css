@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+#wrap {
+	width: 1275px;
+    margin: 200px auto 300px;
+}
+.title {
+	width: 100%;
+    background-color: none;
+    border-bottom: 2px solid #2fb8bd;
+    color: #2fb8bd;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 44px;
+}
+
+.pass {
+	font-size: 18px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.pass_input {
+	font-size: 18px;
+	width: 200px;
+	padding: 10px;	
+}
+
+.text {
+	color: red;
+	margin-top:15px;
+	font-size: 18px;
+}
+
+.sub_btn {
+	width: 80px;
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	background: #2fb8bd;
+	color: #fff;
+	cursor: pointer;
+	margin-left: 10px;
+}
